@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "a3cc82da-aec5-492f-bfeb-17d73886209a",
+		"name": "Ativa dispositivo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "ativar-dispositivo",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "accessToken",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJvbGczaGJWRU0zX2dSdDFEZHBYTXdPWHRTLUUyTVFRRGIwQmh3Nkl2WmRvIn0.eyJqdGkiOiIwOWU2NjEwNS1kMzdhLTQwNTYtODkyNS1mMGRiNWU4Nzc1OTAiLCJleHAiOjE1ODcxNDg3MjIsIm5iZiI6MCwiaWF0IjoxNTg3MTQ4NDIyLCJpc3MiOiJodHRwczovL2xvZ2luZGVzLmNhaXhhLmdvdi5ici9hdXRoL3JlYWxtcy9pbnRlcm5ldCIsImF1ZCI6WyJjbGktc2VyLXNldCIsInJlYWxtLW1hbmFnZW1lbnQiXSwic3ViIjoiYTFkZmE1MWItZWViZC00ZWE0LWFhNzAtMmJiZjRjOTMxMThkIiwidHlwIjoiQmVhcmVyIiwiYXpwIjoiY2xpLXNlci1zZXQiLCJhdXRoX3RpbWUiOjAsInNlc3Npb25fc3RhdGUiOiI4ZjhiYjllNi03MGNiLTRkODctYWNhMy1hN2IyMWY0YjU1OWMiLCJhY3IiOiIxIiwicmVhbG1fYWNjZXNzIjp7InJvbGVzIjpbIlNFVF9QVUJMSUNPIiwiU0VUX0FUSVZBRElTUCIsIlNFVF9FTVBSRUdBRE8iLCJTRVRfSEVMUERFU0siLCJTRVRfU0VHVVJBTkNBIiwiU0VUX0JBVENIIiwiU0VUX1NFUlZJQ08iLCJvZmZsaW5lX2FjY2VzcyIsIkJSSl9TRkdfSU5GT1JNQUNPRVNfRkdUU19BUEkiLCJ1bWFfYXV0aG9yaXphdGlvbiJdfSwicmVzb3VyY2VfYWNjZXNzIjp7InJlYWxtLW1hbmFnZW1lbnQiOnsicm9sZXMiOlsidmlldy11c2VycyIsInZpZXctY2xpZW50cyIsInF1ZXJ5LWNsaWVudHMiLCJxdWVyeS1ncm91cHMiLCJxdWVyeS11c2VycyJdfX0sInNjb3BlIjoiIiwiY2xpZW50SWQiOiJjbGktc2VyLXNldCIsImNsaWVudEhvc3QiOiIxMC4xOTMuOTMuOTEiLCJzZXJ2aWNlX3VzZXJuYW1lIjoiU0FQUE5CTUQiLCJncm91cElkcyI6WyJTRVRfUFVCTElDTyIsIlNFVF9BVElWQURJU1AiLCJTRVRfRU1QUkVHQURPIiwiU0VUX0hFTFBERVNLIiwiU0VUX1NFR1VSQU5DQSIsIlNFVF9CQVRDSCIsIlNFVF9TRVJWSUNPIiwib2ZmbGluZV9hY2Nlc3MiLCJCUkpfU0ZHX0lORk9STUFDT0VTX0ZHVFNfQVBJIiwidW1hX2F1dGhvcml6YXRpb24iXSwicHJlZmVycmVkX3VzZXJuYW1lIjoic2VydmljZS1hY2NvdW50LWNsaS1zZXItc2V0IiwiY2xpZW50QWRkcmVzcyI6IjEwLjE5My45My45MSIsImVtYWlsIjoic2VydmljZS1hY2NvdW50LWNsaS1zZXItc2V0QHBsYWNlaG9sZGVyLm9yZyJ9.BK5arTRzKIZuKn5AfhR7L9AQgD-OHAfuY-JFOv9O-IYQtyCzIknF26JW_xYQX7gcn4NvYsG_th-3Gh8nwRXxjMyBrC3dB6Xf1PD7O2adVbwt7mx_mptxnLBO6w35R6PSV9yENTh4AeLC9bcddoUqkQjYNZtx3DqS7LLfSqfX4dH9J8ioiP8YUqJl_Ye2BBchgLX5eVWjhyY52KNtLZDpE_sjCEPOW3nVw0KXOFE7BMKAnNQ-yTqInfiyf7DmjuXju2_dcyu-GyhP0KewNPWnLhIC6ptgrEKzI3BVZBcBJwYi83HKSfAprug6_OAAsxXEbSaPdkoI338X87AjBWUXKg",
+							"type": "string"
+						},
+						{
+							"key": "tokenType",
+							"value": "bearer",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"ativa\": true\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://logindes.caixa.gov.br/auth/realms/internet/resource_provider/gestao-usuarios/v1/usuarios/03427895114/ativar-dispositivo",
+					"protocol": "https",
+					"host": [
+						"logindes",
+						"caixa",
+						"gov",
+						"br"
+					],
+					"path": [
+						"auth",
+						"realms",
+						"internet",
+						"resource_provider",
+						"gestao-usuarios",
+						"v1",
+						"usuarios",
+						"03427895114",
+						"ativar-dispositivo"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
